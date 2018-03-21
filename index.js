@@ -25,5 +25,5 @@ function appendKitten(Broom){
 }
 
 function removeLastKitten(){
-  return kittens.slice(3, 3)
+  return kittens.slice(-1)
 }
