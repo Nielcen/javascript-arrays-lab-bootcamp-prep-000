@@ -6,5 +6,5 @@ return [kittens.push("Ralph")]
 }
 
 function destructivelyPrependKitten(){
-  
+ return [kittens.unshift("Bob")] 
 }
