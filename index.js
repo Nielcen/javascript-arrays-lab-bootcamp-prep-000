@@ -24,4 +24,6 @@ function appendKitten(Broom){
   return ["Arnold", ...kittens]
 }
 
-function
+function removeLastKitten(){
+  return kittens.slice(5)
+}
